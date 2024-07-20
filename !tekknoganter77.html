@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekknoganter77 - Página Oficial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+            background: #000000; /* Fondo oscuro */
+            color: #00FF00; /* Verde neón */
+            text-align: center;
+            position: relative;
+        }
+        .background {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: url('https://media.giphy.com/media/xThtamXBhHJHplTfeo/giphy.gif') no-repeat center center;
+            background-size: cover;
+            opacity: 0.7; /* Ajusta la opacidad para que no interfiera con el texto */
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+        }
+        h1, h2, h3 {
+            font-family: 'Arial', sans-serif;
+            color: #FF00FF; /* Rosa neón */
+            animation: textBlink 1.5s infinite;
+        }
+        @keyframes textBlink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        a {
+            color: #00FFFF; /* Cyan neón */
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #FF00FF; /* Rosa neón al pasar el ratón */
+        }
+        .intro {
+            font-size: 24px;
+            margin: 20px auto;
+            max-width: 800px;
+            color: #00FF00;
+            line-height: 1.5;
+        }
+        .links a {
+            font-size: 22px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 16px;
+            color: #00FFFF;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .gallery img {
+            width: 100%;
+            border: 2px solid #FF00FF;
+            border-radius: 10px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Tekknoganter77</h1>
+        <h2>¡Bienvenido a la Página Oficial!</h2>
+        <div class="intro">
+            <p>OLA BIENVENIDO/AS A LA PÁGINA RECONTRA OFICIAL DE TEKKNOGANTER77 BUENAS TARDES</p>
+        </div>
+        <div class="gallery">
+            <img src="images/1QuVg8JdnAy3GQ1vhaE8vllJ7pvBb2ze3.jpg" alt="Imagen 1">
+            <img src="images/1TOLZF8FftDUdAaw4uPgXwyBu2CSTEyAP.jpg" alt="Imagen 2">
+            <img src="images/1V4qEhZP1wyPyGfB3JiCsXGwnD72t89vA.jpg" alt="Imagen 3">
+            <img src="images/1VTwaNCbRxOdrJkhzLIdAwgoibIyJUdFo.jpg" alt="Imagen 4">
+            <img src="images/1_OiMXGTSNv0nZUB41Fsmx3vFITgKSmhI.jpg" alt="Imagen 5">
+            <img src="images/1a-YqyDc4v_0fWioyXjsW6exJB0o5YXsh.jpg" alt="Imagen 6">
+            <img src="images/1fL53jOwXv_EUz5E4FalY-iKmUoSboZjX.jpg" alt="Imagen 7">
+            <img src="images/1l-NItRUARUHK5dB1dWOWbbmUkl2kUkAs.jpg" alt="Imagen 8">
+            <img src="images/1v4BlPl2EdI4jUNkcJJWMcehdpl-9XFl5.jpg" alt="Imagen 9">
+            <img src="images/1vJfkqbLkrL1tzccTbw8LSAjflLndPeQz.jpg" alt="Imagen 10">
+            <img src="images/1zzYV8FMqxXCFDK6ftbilFpy3Pu9HMgr4.jpg" alt="Imagen 11">
+        </div>
+        <div class="links">
+            <h3>Descubre Más</h3>
+            <a href="https://soundcloud.com/marambio" target="_blank">Escucha en SoundCloud</a>
+            <a href="https://tekknoganter77.bandcamp.com/album/2019-2022-domadora-de-sapos-tutelares" target="_blank">Álbum en BandCamp</a>
+            <a href="https://soundcloud.com/epizootia" target="_blank">Proyectos con Epizootia</a>
+            <a href="https://www.youtube.com/@tekknoganter77" target="_blank">Visita su Canal de YouTube</a>
+        </div>
+        <div class="footer">
+            <p>© 2024 Tekknoganter77. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
+
