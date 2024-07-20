@@ -5,12 +5,6 @@
 - [Proyectos con Epizootia](https://soundcloud.com/epizootia) 🎸
 - [Visita su Canal de YouTube](https://www.youtube.com/@tekknoganter77) 📹
 
-### 🛠️ Cómo Usar Este Repositorio:
-
-1. **Descarga los Archivos**: Usa el botón de descarga para obtener los archivos. Es fácil y rápido.
-
-2. **Explora**: Navega por el sitio y conoce más sobre Tekknoganter77 y su música.
-
 ### 📜 Contribuir
 
 Si tienes sugerencias o ideas para mejorar el sitio, ¡serán bien recibidas! Puedes abrir un *issue* o enviar un *pull request*.
